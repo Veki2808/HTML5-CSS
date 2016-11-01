@@ -1,14 +1,16 @@
-#parent p:first-child{
+#parent p:nth-child(even){ /* Sve parne paragrafe */
+	background-color:green;
 	color:red;
-	text-decoration:underline;
 }
-#parent p:last-child{
-	color:green;
-	text-decoration:underline;
+#parent p:nth-child(odd){ /* Sve neparne paragrafe*/
+	background-color:blue;
+	color:yellow;
 }
-#parent p:before{
-	content:"I am before";
+#parent p:nth-child(3n){ /* Svaki treći paragraf */
+	background-color:orange;
+	color:black;
 }
-#parent p:after{
-	content:"I am after";
+#parent p:nth-child(8){ /* Samo jedan paragraf */
+	background-color:gray;
+	color:black;
 }
