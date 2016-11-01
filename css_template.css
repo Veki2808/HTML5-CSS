@@ -1,8 +1,14 @@
-p:first-letter{
-	color:blue;
-	font-weight:bold;
-	font-size:20px;
+#parent p:first-child{
+	color:red;
+	text-decoration:underline;
 }
-h3:first-line{
-	color:blue;
+#parent p:last-child{
+	color:green;
+	text-decoration:underline;
+}
+#parent p:before{
+	content:"I am before";
+}
+#parent p:after{
+	content:"I am after";
 }
