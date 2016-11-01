@@ -1,16 +1,23 @@
-#parent p:nth-child(even){ /* Sve parne paragrafe */
-	background-color:green;
+/* Promijena samog linka */
+a{                      
+	color:green;
+	text-decoration:none;
+}
+
+/* Kada se pointerom dođe do linka */
+a:hover{
 	color:red;
+	text-decoration:underline;
 }
-#parent p:nth-child(odd){ /* Sve neparne paragrafe*/
-	background-color:blue;
-	color:yellow;
+
+/* Kada se klikne na link */
+a:active{
+	color:orange;
+	
 }
-#parent p:nth-child(3n){ /* Svaki treći paragraf */
-	background-color:orange;
-	color:black;
-}
-#parent p:nth-child(8){ /* Samo jedan paragraf */
-	background-color:gray;
-	color:black;
+
+/*Kada je link već bio posjećen*/
+a:visited{
+	color:gray;
+	text-decoration:none;
 }
