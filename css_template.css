@@ -1,6 +1,8 @@
-.blue{
-	color: blue;
+p:first-letter{
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
 }
-#red{
-	color: red;
+h3:first-line{
+	color:blue;
 }
