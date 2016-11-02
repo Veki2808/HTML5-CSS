@@ -1,9 +1,12 @@
-/* ul{
-	list-style-image:url(nike_swoosh_logo_black.png); /* list-style-type: disc->default, circle, sqare, decimal, 
-														 lower-greek, katakana 
-    line-height:600%;													 
-}*/
-
-ul{
-	list-style-position:outside; /* inside */
+.rounded_box{
+	background-color:orange;
+	width:200px;
+	text-align:center;
+	padding:50px 0px;
+	border-top-left-radius:50px;
+	border-top-right-radius:30px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:5px;
+ 
+ /* border-radius:50px;  promjena ivica box-a */
 }
