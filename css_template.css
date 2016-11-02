@@ -1,8 +1,6 @@
-.rounded_box{
-	background-color:orange;
-	width:200px;
-	text-align:center;
-	padding:50px 0px;
-	border-radius:30px;
-	background-image:linear-gradient(to top, black 15%, gray); /* to bottom */
+.pic{
+	float:left; /* Tekst oko slike */
+}
+.para2{
+	clear:left; /* Paragraf ispod slike */
 }
