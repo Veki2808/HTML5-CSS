@@ -1,23 +1,9 @@
-/* Promijena samog linka */
-a{                      
-	color:green;
-	text-decoration:none;
-}
+/* ul{
+	list-style-image:url(nike_swoosh_logo_black.png); /* list-style-type: disc->default, circle, sqare, decimal, 
+														 lower-greek, katakana 
+    line-height:600%;													 
+}*/
 
-/* Kada se pointerom dođe do linka */
-a:hover{
-	color:red;
-	text-decoration:underline;
-}
-
-/* Kada se klikne na link */
-a:active{
-	color:orange;
-	
-}
-
-/*Kada je link već bio posjećen*/
-a:visited{
-	color:gray;
-	text-decoration:none;
+ul{
+	list-style-position:outside; /* inside */
 }
