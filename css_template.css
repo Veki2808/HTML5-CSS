@@ -1,0 +1,51 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+header,nav,article,section,footer,aside{
+	display:block;
+}
+/*Centering web site*/
+.container{
+	width:1000px;
+	margin:0px auto;
+}
+.clear{
+	clear:both;
+}
+.logo{
+	width:232px;
+	height:100px;
+	float:left;
+}
+.nav_top{
+	float:left;
+	width:768px;
+}
+.nav_top ul li{
+	float:left;
+	margin-top: 35px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.left_side article{
+	float:left;
+	width:648px;
+	border:2px solid blue;
+	padding:20px;
+	margin-right:10px;
+}
+.right_side div{
+	float:left;
+	border:2px solid red;
+	padding:20px;
+	margin-bottom:10px;
+	width:240px;
+}
+/*make footer clear floated element*/
+.page_footer{
+	clear:both;
+	text-align:center;
+}

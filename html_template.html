@@ -2,34 +2,61 @@
 <html>
 	<head>
 		<meta charset = "utf = 8"/>
-		<title> New tags for the layout </title>
+		<title> Creating basic website layout </title>
 		<link rel = "stylesheet" href = "css_template.css">
 	</head>
-	<body>
-	
-		<!-- Nesto sto se pojavljuje na svakoj stranici kao na youtube search -->
+	<body>	
+	    <div class = "container">
 		<header>
-			
+			<img src = "images.png" alt = "logo area" class = "logo">
+			<nav class = "nav_top">
+				<ul>
+					<li><a href = "">Home</a></li>
+					<li><a href = "">About</a></li>
+					<li><a href = "">Tutorials</a></li>
+					<li><a href = "">Contact</a></li>
+				</ul>
+			</nav>
+			<div class = "clear"></div>
 		</header>
+			
+		<section class = "left_side">
+			<article>
+				<header>
+					<h2> This is article header </h2>
+					<h3> This is a sub header </h3>
+				</header>
+					<p>This is para 1</p>
+					<p>This is para 2</p>
+				<footer>
+					- written by Vernes Halilovic
+				</footer>
+			</article>
+		</section>	
 		
-		<!-- Navigation tag- navigacijski tag -->
-		<nav>
-		
-		</nav>
-		
-		<!-- Ono sto je po strani -->
-		<section>
-		
-		</section>
-		
-		<!-- Section po strani/linkovi add-onsi  -->
-		<aside>
-		
+		<aside class = "right_side">
+			<div>
+				<h2> Social links </h2>
+				<ul>
+					<li><a href = ""> Facebook </a></li>
+					<li><a href = ""> Youtube </a></li>
+				<ul>
+			</div>
+			<div>
+				<h2>Related articlee</h2>
+				<article>
+					<header>
+						<h3>This can be a heading another story</h3>
+					</header>
+						<p> Get interested and click below to see more </p>
+						<a href = ""> See more </a>
+				</article>
+			</div>
 		</aside>
 		
-		<!-- ono sto se nalazi na kraju stranice -->
-		<footer>
-		
+		<footer class = "page_footer">
+			&copy; copyright user verneshalilovic21@gmail.com
 		</footer>
+		</div>
 	</body>
 </html>
