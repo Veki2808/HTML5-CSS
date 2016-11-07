@@ -1,6 +1,42 @@
-h3{
-  font-family:Roboto;
+body{
+  background-image: url(images.jpg);
+  background-size: cover;
 }
-p{
-  font-family:Playfair Display;
+
+.login{
+  width: 300px;
+  height: 200px;
+  margin:100px 100px 50px 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.login input[type="text"]{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: Playfair Display;
+}
+
+.login input[type="password"]{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: Playfair Display;
+}
+
+.login input[type="submit"]{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: Playfair Display;
+  background-color: #ADD8E6;
+}
+h3{
+  font-family: Playfair Display;
+  color: white;
 }

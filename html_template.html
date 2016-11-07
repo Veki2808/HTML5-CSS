@@ -3,17 +3,21 @@
 	<head>
 		<meta charset = "utf = 8"/>
 		<title> Google fonts </title>
+			<!-- Kreiranje login forme u CSS-u -->
 			<link rel = "stylesheet" href = "css_template.css">
+			<!-- Add some google font -->
+			<link href="https://fonts.googleapis.com/css?family=Playfair+Display"
+						type="text/css" rel="stylesheet">
 
-			<!-- Add some google font, enable in CSS as font-family  -->
-			<link href="https://fonts.googleapis.com/css?family=Roboto:100"
-						type="text/css" rel="stylesheet">
-	  	<link href="https://fonts.googleapis.com/css?family=Playfair+Display"
-						type="text/css" rel="stylesheet">
 	</head>
 	<body>
-
-		<h3> Some text to test Google fonts</h3>
-		<p> Some text to test Google fonts</p>
+		<div class="login">
+			<h3>Login</h3>
+			<form>
+					<input type="text" placeholder="Please enter your name..."><br>
+					<input type="password" placeholder="Please enter your password..."><br>
+					<input type="submit" value="Login">
+			</form>
+		<div>
 	</body>
 </html>
